@@ -1,0 +1,47 @@
+.home {
+    height: 100vh;
+    background-image: url(https://images5.alphacoders.com/326/326061.png);
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+}
+
+.welcome-banner {
+    padding: 10px;
+}
+
+.main-text {
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+    font-family: "Courier New", monospace;
+    color: rgba(255, 255, 255, 1);
+    float: left;
+    width: 550px;
+    font-weight: bold;
+}
+
+.buttondiv {
+    position: relative;
+}
+.pokedexButton {
+    width:  200px;
+    font-size: 24px;
+    font-family: "Courier New", monospace;
+    color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+}
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 50%;
+    top: 15px;
+}
+
+
+.btn-primary-link {
+    color: white;
+}
